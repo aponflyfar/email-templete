@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Registration Successfully</title>
+    <title>Document</title>
     <style>
       body {
-        font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", sans-serif;
         margin: 0;
         padding: 0;
         color: #0c0c0c;
@@ -34,24 +34,18 @@
       }
       .regards {
         color: #dc143c;
-        font-size: 1rem;
+        font-size: 0.9rem;
         font-weight: 700;
         margin-top: 40px;
       }
       .link {
         color: #b7b7b7;
         text-decoration: underline;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
       }
       table {
         width: 100%;
         border-collapse: collapse;
-      }
-
-      table th,
-      td {
-        padding: 10px 10px 10px 0px;
-        text-align: left;
       }
 
       table th {
@@ -62,15 +56,25 @@
         font-size: 12px;
       }
 
+      .tableText {
+        font-size: 12px;
+        line-height: 1.6;
+        margin: 0;
+        font-weight: 600;
+      }
+
       .redColor {
         color: #dc143c;
       }
       .blackColor {
         color: #000000;
       }
+      .grayColor {
+        color: #666666;
+      }
 
       .rights {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         line-height: 1.5;
         margin-top: 16px;
         color: #b7b7b7;
@@ -84,6 +88,11 @@
       @media only screen and (max-width: 425px) {
         .main-container {
           max-width: 100%;
+        }
+
+        .tableText {
+          font-size: 0.7rem;
+          line-height: 1.4;
         }
 
         .title {
@@ -109,33 +118,129 @@
     <div class="main-container">
       <div class="borderBottom">
         <img
-          class="image"
           src="https://i.ibb.co.com/wdV3w3w/flyfarheader.png"
+          class="image"
         />
-        <div class="container">
-          <p class="title">
-            Agency Registration Successfully Submitted for Review
+        <div style="padding: 10px">
+          <h3 class="title">New Booking Request Confirmation #QTKB1254</h3>
+          <p class="paragraph">
+            Fly Far International. We hope this message finds you well. Your New
+            booking
+            <span class="redColor"
+              >Dhaka - Dubai By Biman Bangladesh, Flight Date 25th September
+              2022</span
+            >
+            request has been Confirmed
           </p>
 
-          <p class="paragraph">
-            Dear, X travels. <br />
-            Congratulations ! We are delighted to have your agency on board.
-            Your registration details have been successfully received, and we
-            are currently reviewing your registration.
-          </p>
+          <table>
+            <tbody style="background-color: #eeeeee">
+              <tr>
+                <td style="padding: 10px; border: 1px solid white" colspan="3">
+                  <p class="tableText grayColor">BOOKING ID</p>
+                  <p class="tableText" style="color: #15c">FFIBD1254</p>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 10px; border: 1px solid white">
+                  <p class="tableText grayColor">ORDER TYPE</p>
+                  <p class="tableText" style="color: #15c">AIR TICKET</p>
+                </td>
+
+                <td style="padding: 10px; border: 1px solid white">
+                  <p class="tableText grayColor">CURRENT STATUS</p>
+                  <p class="tableText redColor">HOLD</p>
+                </td>
+
+                <td style="padding: 10px; border: 1px solid white" rowspan="2">
+                  <p class="tableText grayColor">AGENT INFORMATION</p>
+                  <p class="tableText">Fly Far International</p>
+                  <p class="tableText">Syed Afridi, Agent</p>
+                  <p class="tableText">San Francisco, CA 94123</p>
+                  <p class="tableText">Bangladesh</p>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 10px; border: 1px solid white">
+                  <p class="tableText grayColor">AIRLINES PNR</p>
+                  <p class="tableText" style="color: #15c">QSJAUG</p>
+                </td>
+
+                <td style="padding: 10px; border: 1px solid white">
+                  <p class="tableText grayColor">ISSUE TIMELIMIT</p>
+                  <p class="tableText redColor">22th SEPTEMBER 2022</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table style="margin-top: 25px">
+            <tbody style="background-color: #eeeeee">
+              <tr style="border: 1px solid #ffffff">
+                <td colspan="4">
+                  <p
+                    class="tableText"
+                    style="padding: 10px; font-size: 14px; font-weight: 500"
+                  >
+                    ORDER ITENARY
+                  </p>
+                </td>
+              </tr>
+              <tr style="border: 1px solid #ffffff">
+                <td style="padding: 10px">
+                  <img
+                    src="https://storage.googleapis.com/b2bnodeimages/data/Biman-Approved-Icon-Logo-Vector.png"
+                    alt="Airlines"
+                    width="64"
+                    height="64"
+                  />
+                </td>
+                <td style="padding: 10px" colspan="2">
+                  <p class="tableText">
+                    Roundway, Dhaka Dubai Air Ticket & One Stop via Mumbai
+                  </p>
+                  <p class="tableText grayColor">
+                    Biman Bangladesh & Air Arabia
+                  </p>
+                  <p class="tableText grayColor">
+                    <span class="redColor">ONWARD - </span>BG 455, Flight
+                    Duration 05F:35Min
+                  </p>
+                  <p class="tableText grayColor">
+                    <span class="redColor">RETURN - </span>BG 455, Flight
+                    Duration 05H:35Min
+                  </p>
+                  <p class="tableText grayColor">
+                    1 ADT, 1 CHD | BAGGAGE A-30KG, C-30KG
+                  </p>
+                </td>
+                <td></td>
+              </tr>
+              <tr style="border: 1px solid #ffffff">
+                <td colspan="3" style="padding: 10px">
+                  <p class="tableText grayColor" style="text-align: right">
+                    TOTAL
+                  </p>
+                </td>
+                <td style="border-left: 1px solid #ffffff; text-wrap: nowrap">
+                  <p
+                    class="tableText grayColor"
+                    style="text-align: right; padding-left: 10px"
+                  >
+                    1,499 BDT
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
           <p class="paragraph">
-            Our team is diligently reviewing your agency's registration details.
-            This process typically takes usually 48 hours to 72 Hours. We
-            appreciate your patience during this time.
+            If you have any questions or require assistance, please do not
+            hesitate to contact our dedicated support team at
+            <span class="redColor">support@flyfarint.com</span> or
+            <span class="redColor">01555454554.</span>
           </p>
-
-          <p class="paragraph">
-            If you have any questions or concerns during this waiting period,
-            feel free to reach out to our support team at
-            <span class="redColor">support@flyfarint.com</span> or call
-            <span class="redColor">+8809666721921.</span>
-          </p>
+          <p class="paragraph">Thank you for choosing us!</p>
 
           <p class="regards">Regards, Fly Far International Team</p>
           <table>
@@ -176,7 +281,9 @@
                             <br /><br /><span class="redColor"
                               >Fly Far International</span
                             >
-                            <span class="blackColor">All rights reserved.</span>
+                            <span class="blackColor"
+                              >&copy;2024 All rights reserved.</span
+                            >
                           </p>
                         </td>
                         <td class="SecondTd">
